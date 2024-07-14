@@ -3,6 +3,7 @@ import BookDetails from "./components/UniqueComponents/BookDetails";
 import Counter from "./components/UniqueComponents/Counter";
 import MirrorText from "./components/UniqueComponents/MirrorText";
 import ToDoList from "./components/UniqueComponents/ToDoList";
+import NavegacaoComAbas from "./components/UniqueComponents/NevegacaoComAbas";
 
 const item = {
   author: "Gabriel",
@@ -22,6 +23,8 @@ function App() {
       <MirrorText />
       <hr></hr>
       <ToDoList />
+      <hr></hr>
+      <NavegacaoComAbas />
       <hr></hr>
     </>
   );
