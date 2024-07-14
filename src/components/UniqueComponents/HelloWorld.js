@@ -1,9 +1,13 @@
-import React from "react";
+const books = ["O Hobbit", "Harry Potter"];
 
-const HelloWorld = () => {
+function HelloWorld() {
+  const chosenBook = Math.random() > 0.5 ? books[0] : books[1];
   return (
-    <div>HelloWorld</div>
-  )
+    <div>
+      <h1>Hello world</h1>
+      <p>Livro escolhido aleatóriamente: {chosenBook}</p>
+    </div>
+  );
 }
 
 export default HelloWorld;
