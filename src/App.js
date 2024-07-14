@@ -4,6 +4,8 @@ import Counter from "./components/UniqueComponents/Counter";
 import MirrorText from "./components/UniqueComponents/MirrorText";
 import ToDoList from "./components/UniqueComponents/ToDoList";
 import NavegacaoComAbas from "./components/UniqueComponents/NevegacaoComAbas";
+import TimerComponent from "./components/UniqueComponents/LifeCycle";
+import UseEffectDefinition from "./components/UniqueComponents/LifeCycle2";
 
 const item = {
   author: "Gabriel",
@@ -26,6 +28,9 @@ function App() {
       <hr></hr>
       <NavegacaoComAbas />
       <hr></hr>
+      <TimerComponent />
+      <hr></hr>
+      <UseEffectDefinition />
     </>
   );
 }
