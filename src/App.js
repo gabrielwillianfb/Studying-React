@@ -6,6 +6,7 @@ import ToDoList from "./components/UniqueComponents/ToDoList";
 import NavegacaoComAbas from "./components/UniqueComponents/NevegacaoComAbas";
 import TimerComponent from "./components/UniqueComponents/LifeCycle";
 import UseEffectDefinition from "./components/UniqueComponents/LifeCycle2";
+import NewsUpdater from "./components/UniqueComponents/NewsUpdater";
 
 const item = {
   author: "Gabriel",
@@ -31,6 +32,8 @@ function App() {
       <TimerComponent />
       <hr></hr>
       <UseEffectDefinition />
+      <hr></hr>
+      <NewsUpdater />
     </>
   );
 }
