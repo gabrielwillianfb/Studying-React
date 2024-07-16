@@ -25,8 +25,8 @@ function NewsUpdater() {
     };
     fetchNews();
 
-    // Configura um intervalo para buscar notícias a cada 10 segundos
-    const interval = setInterval(fetchNews, 10000);
+    // Configura um intervalo para buscar notícias a cada 30 segundos
+    const interval = setInterval(fetchNews, 30000);
 
     // A função de limpeza é retornada e será chamada quando o componente for desmontado
     return () => clearInterval(interval);
